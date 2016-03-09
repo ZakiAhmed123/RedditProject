@@ -1,0 +1,39 @@
+<body>
+  <% @posts.each do |f| %>
+<div class="outer">
+  <div class="listitems">
+    <div class="voting">
+    <div class="votes">
+      <%= link_to upvote_post_path(id: f.id), method: :post, class: 'upvote' do %>
+      <div class="arrow">
+&#8657; </div>
+<%end %>
+    </div>
+    <div class="vote_count">
+    <%= f.view_count %>
+  </div>
+    <div class="votes">
+      <%= link_to downvote_post_path(id: f.id), method: :post, class: 'upvote' do %>
+      <div class="arrow">
+
+  &#8659;
+  </div>
+      <%end %>
+    </div>
+
+      </div>
+    <img src="<%= f.photo_id %>" alt="" />
+<div class="info">
+<p><%= link_to post_path(id: f.id), class:"Post" do %><%= f.title %><% end %> </p>
+ <p style="color:#A69388; font-size:12px; font-family:Arial;"> Submitted <%= distance_of_time_in_words f.created_at, Time.now %> ago by <%= f.user_name %></p>
+<p><%= link_to "comments", post_path(id: f.id), class:"CommentLink" %>
+</p>
+</div>
+
+</div>
+<% end %>
+
+
+</div>
+
+</body>

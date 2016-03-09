@@ -1,0 +1,131 @@
+.linkbar p{
+  font-size: 10px;
+  font-family: sans-serif;
+  background-color: #F0F0F0;
+  margin:0px;
+  height:20px;
+  border-bottom:1px solid black;
+  line-height: 20px;
+}
+
+.redditnav p{
+  display:inline-block;
+  font-family: arial;
+  background-color: #EFF7FF;
+  padding:2px 3px 1px 3px;
+  color:#33669D;
+}
+
+.redditnav img{
+  height:40px;
+  width:140px;
+}
+
+.redditnav {
+  background-color: #CEE3F8;
+  height:45px;
+  border-bottom: 1px solid #5F99CF;
+  margin-bottom: 15px;
+}
+body{
+  margin:0px;
+}
+
+.listitems{
+  display:flex;
+  width:682px;
+  height:110px;
+  border-bottom: 2px solid #F1F1F1;
+
+}
+
+.listitems img{
+  width:70px;
+  height:70px;
+  line-height: 95px;
+  margin-right: 4px;
+}
+.outer {display:flex;
+flex-direction: column;}
+
+.newlink {
+  width:250px;
+  height:33px;
+  border:2px solid #5F99CF;
+  text-align: center;
+  line-height: 33px;
+  background-color:#EFF7FF;
+}
+
+.NewPost {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  text-decoration: none;
+  color:#3366A1;
+}
+.Post {
+  text-decoration: none;
+  font-size: 17px;
+  color:#0000FF;
+  font-family: Arial;
+}
+.info p{
+  margin:0 4px 0px 0px;
+}
+.CommentLink {
+  text-decoration: none;
+color:#888888; font-family:Arial;font-size:13px; font-weight:bold
+}
+
+.votes {
+  font-size: 15px;
+  color:#C6C6C6;
+  margin:5px;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+ol {
+  font-size: 13px;
+  font-family: Arial;
+}
+.comment3 {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.Submit {
+  font-size:20px;
+}
+
+.voting {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.vote_count {
+  font-size: 25px;
+  color:#C6C6C6;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 35px;
+  margin-top: 0px;
+  margin-left: 27px;
+  margin-right: 5px;
+}
+.arrow {
+  text-decoration: none;
+  font-size: 30px;
+  color:#C6C6C6;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.upvote {
+  text-decoration: none;}
