@@ -30,7 +30,7 @@ def downvotes
 @post = Post.new
 @post.title = params[:post][:title]
 @post.user_name = params[:post][:user_name]
-@post.post_id = params[:post][:post_id]
+@post.photo_id = params[:post][:photo_id]
 
 if @post.save
   redirect_to root_path
