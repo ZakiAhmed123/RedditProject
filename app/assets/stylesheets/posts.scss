@@ -91,10 +91,7 @@ color:#888888; font-family:Arial;font-size:13px; font-weight:bold
   margin-left: 30px;
 }
 
-ol {
-  font-size: 13px;
-  font-family: Arial;
-}
+
 .comment3 {
   font-size: 20px;
   font-family: Arial;
@@ -129,3 +126,33 @@ ol {
 
 .upvote {
   text-decoration: none;}
+
+  .commentus {
+    font-family: Arial;
+    color:blue;
+    font-size: 14px;
+    margin:0px;
+  }
+
+.commenttext {
+  font-size: 20px;
+
+}
+
+.deletebttn {
+  text-decoration: none;
+  background-color: red;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  color:white;
+}
+.commenthead {
+  display:flex;
+}
+
+.posted {
+  margin:0px;
+  font-family: Arial;
+  font-size: 12px;
+}
